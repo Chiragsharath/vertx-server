@@ -1,0 +1,17 @@
+{
+  "jdbc": [{
+    "driver_class": "com.mysql.jdbc.Driver",
+    "url": "jdbc:mysql://localhost/db_name",
+    "max_pool_size": 4,
+    "user": "user",
+    "password": "pwd",
+    "poolName": "test"
+  }],
+
+  "elasticsearch": {
+    "cluster_name": "elasticsearch"
+  },
+
+  "queryfiles": ["apiserver/db/sql_queries.json"],
+
+}

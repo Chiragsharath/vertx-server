@@ -1,0 +1,19 @@
+{
+  "services": {
+    "sequential": [
+      {
+        "name": "com.ka09solutions.db.DatabaseService"
+      },
+      {
+        "name": "com.ka09solutions.db.QueryPrepareService"
+      }
+    ],
+    "parallel": [
+      {
+        "name": "com.ka09solutions.apiserver.ApiServerVerticle",
+        "worker": false
+      }
+
+    ]
+  }
+}

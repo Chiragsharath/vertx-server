@@ -1,0 +1,9 @@
+.idea
+out
+build
+.gradle
+.vertx
+plianced-server.iml
+.file-uploads
+velocity.log
+.build/

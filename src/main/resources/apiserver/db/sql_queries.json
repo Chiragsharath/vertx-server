@@ -1,0 +1,12 @@
+{
+  "queries": [
+    {
+      "id": "user.insert",
+      "type": "insert",
+      "table": "user",
+      "query": "insert into user (name,email,phone) values (?, ?, ?)",
+      "params": ["name","email","phone"]
+    }
+  ]
+}
+

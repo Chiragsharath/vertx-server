@@ -1,0 +1,12 @@
+{
+  "resturls": [
+    {
+      "uri": "/api/user/insert",
+      "source": "db",
+      "query":"user.insert",
+      "params":["json_data"],
+      "resultfields":[],
+      "default": "{}"
+    }
+  ]
+}

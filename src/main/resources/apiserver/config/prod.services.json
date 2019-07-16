@@ -1,0 +1,18 @@
+{
+  "services": {
+    "sequential": [
+      {
+        "name": "com.plianced.db.DatabaseService"
+      },
+      {
+        "name": "com.plianced.db.QueryPrepareService"
+      }
+    ],
+    "parallel": [
+      {
+        "name": "com.plianced.apiserver.ApiServerVerticle",
+        "worker": false
+      }
+    ]
+  }
+}
