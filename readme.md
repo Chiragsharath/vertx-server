@@ -1,4 +1,4 @@
-Plianced Server - API server for all Plianced Apps
+
 
 Setting up project on local machine.
 ------------------------------------
